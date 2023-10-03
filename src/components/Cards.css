@@ -1,0 +1,121 @@
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(234, 245, 247);
+    padding: 1rem;
+}
+
+.search {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 35rem;
+
+}
+
+.search i {
+    margin-left: 1rem;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    width: 100%;
+    background-color: rgb(234, 236, 238);
+    border-radius: 10px;
+    padding: 1rem 0;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+
+.images {
+    width: 22rem;
+    border-radius: 2rem;
+}
+
+.kilometer,
+.price,
+.people {
+    margin-left: 2rem;
+}
+
+
+.name {
+    margin-left: 2.1rem;
+}
+
+.year {
+    margin-left: 10rem;
+    border: 0.1px dashed;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+
+}
+
+.container1 {
+    display: flex;
+    /* height: 40px; */
+
+
+}
+
+.container2 {
+    display: flex;
+    height: 48px;
+
+
+}
+
+.type {
+    margin-left: 4rem;
+}
+
+.image2 {
+    width: 2rem;
+    height: 1.3rem;
+    margin-left: 5rem;
+}
+
+.container3 {
+    display: flex;
+    height: 70px;
+
+
+
+}
+
+.mode {
+    margin-left: 4rem;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(143, 223, 243);
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+
+
+
+}
